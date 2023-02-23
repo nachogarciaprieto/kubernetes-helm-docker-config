@@ -4,18 +4,30 @@ clusters:
     certificate-authority: ca.crt
     extensions:
     - extension:
+<<<<<<< HEAD
         last-update: Thu, 23 Feb 2023 11:29:57 CET
         provider: minikube.sigs.k8s.io
         version: v1.29.0
       name: cluster_info
     server: https://172.19.0.2:8443
+=======
+        last-update: Wed, 22 Feb 2023 12:52:43 CET
+        provider: minikube.sigs.k8s.io
+        version: v1.29.0
+      name: cluster_info
+    server: https://192.168.49.2:8443
+>>>>>>> origin/training-qa
   name: minikube
 contexts:
 - context:
     cluster: minikube
     extensions:
     - extension:
+<<<<<<< HEAD
         last-update: Thu, 23 Feb 2023 11:29:57 CET
+=======
+        last-update: Wed, 22 Feb 2023 12:52:43 CET
+>>>>>>> origin/training-qa
         provider: minikube.sigs.k8s.io
         version: v1.29.0
       name: context_info
